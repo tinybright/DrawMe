@@ -9,7 +9,7 @@ import com.rafakob.drawme.delegate.DrawMeShapeText;
 
 public class DrawMeTextView extends TextView {
     private DrawMe drawMe;
-
+    private DrawMe drawMe1;
     public DrawMeTextView(Context context) {
         super(context);
         if(isInEditMode()){
