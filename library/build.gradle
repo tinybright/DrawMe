@@ -1,13 +1,14 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
+group='com.github.tinybright'
 def versionMajor = 0
 def versionMinor = 1
 def versionPatch = 6
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion rootProject.ext.buildTools
 
     defaultConfig {
         minSdkVersion 10

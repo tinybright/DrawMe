@@ -4,7 +4,7 @@ group = 'com.github.rafakob'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion rootProject.ext.buildTools
 
     defaultConfig {
         applicationId "com.rafakob.example.drawme"
